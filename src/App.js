@@ -2,12 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 import Home from "./page/Hompage/Home";
+import {Route} from "react-router-dom";
 
 function App() {
   return (
-    <div >
+    <div>
 
-        <Home></Home>
+           <Route exact path='/' component={Home}/>
+
+
     </div>
   );
 }

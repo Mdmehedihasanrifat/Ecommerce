@@ -58,7 +58,7 @@ import Menu from "../Menu/Menu";
                 <div className="directory-menu">
                     {
                         this.state.section.map(section => (
-                            <Menu title={section.title} img={section.imageUrl} key={section.id} size={section.size}></Menu>))
+                            <Menu title={section.title} img={section.imageUrl} key={section.id} size={section.size} linkUrl={section.linkUrl}></Menu>))
                     }
                 </div>
             )
